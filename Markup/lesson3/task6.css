@@ -1,0 +1,55 @@
+.labels {
+    margin-top: 20px;
+}
+.red {
+    background: red;
+}
+.green {
+    background: green ;
+}
+.blue {
+    background: blue;
+}
+.red, .green, .blue {
+    color: white;
+    font-size: 26px;
+    font-weight:bold;
+    padding: 4px;
+    border-radius: 12px;
+}
+#red + label {
+    color: red;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+#green + label{
+    color: green ;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+#blue + label{
+    color: blue;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+label {
+    font-size: 26px;
+    font-weight:bold;
+}
+#red:checked + label,
+#green:checked + label,
+#blue:checked + label {
+   opacity: .5;
+}
+input {
+    display: none;
+}
+#red:checked ~ .labels .red {
+   display: none;
+}
+#green:checked ~ .labels .green {
+    display: none;
+}
+#blue:checked ~ .labels .blue {
+    display: none;
+}
