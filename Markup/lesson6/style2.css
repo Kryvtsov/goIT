@@ -1,0 +1,75 @@
+.comments_main {
+    background: url("bg.png");
+    width: 1402px;
+    height: 315px;
+    padding-top: 58px;
+    position: relative;
+
+
+}
+.comments_head {
+    font-size: 40px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #3170a8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 52px;
+
+}
+.comments_head span{
+    color: rgb(238, 129, 41);
+}
+.comments_comment1, .comments_comment2 {
+    width: 490px;
+}
+.comments_comment1_block {
+    border: 1px solid rgb(224, 224, 224);
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 332px;
+    float: right;
+    position: relative;
+    padding: 16px;
+}
+.comments_comment1_block::before {
+    content:"";
+    border-style: solid;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f7f7f7 transparent transparent;
+    position: absolute;
+    left: -15px;
+    top:20px;
+}
+.name, .Customer {
+    font-size: 13px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(48, 112, 168);
+    font-style: italic;
+}
+.name  {
+    float: left;
+}
+.Customer {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+.comments_comment1_block p {
+    margin: 0;
+    margin-top: 12px;
+    border-top: 1px dotted rgb(102, 102, 102);
+    font-size: 13px;
+    line-height: 1.538;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    width: 310px;
+    padding-top: 12px;
+    padding-right: 22px;
+}
+.comments_comment1 img {
+    width: 100px;
+    height: 100px;
+}

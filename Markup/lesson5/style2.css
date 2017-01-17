@@ -1,0 +1,125 @@
+.value_main {
+    width: 280px;
+    border: 4px solid rgb(238, 129, 41);
+    box-shadow: 0 0 13px 0 rgba(8, 116, 178, .4);
+    position: absolute;
+    left: 159px;
+    top: 45px;
+    height: 452px;
+    border-radius: 5px;
+    padding: 0;
+}
+.value_main h3  {
+    font-size: 24px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.833;
+    text-align: center;
+    width: 100%;
+    background: rgb(238, 129, 41);
+    margin: 0 auto;
+}
+.value_main h3 ~ p {
+    font-size: 24px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+    text-transform: uppercase;
+    line-height: 2.833;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.price p {
+    font-size: 72px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(53, 73, 90);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.833;
+    text-align: center;
+    margin:0 auto;
+}
+.price p span {
+    font-size: 22px;
+    vertical-align: top;
+}
+.price p span:last-child {
+    font-size: 18px;
+    vertical-align: bottom;
+    text-transform: capitalize;
+}
+.bonuses {
+    margin: 30px auto;
+    width: 259px;
+}
+.bonuses ul {
+    list-style: none;
+    padding: 0;
+
+}
+.bonuses ul li {
+    height: 24px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(136, 140, 148);
+    line-height: 1.2;
+    margin-bottom: 2px;
+    vertical-align: middle;
+    padding-top: 9px;
+
+}
+.bonuses ul li:nth-child(2n+1) {
+    background-color: rgb(237, 245, 253);
+}
+.bonuses ul li:nth-child(2n) {
+    background-color: rgb(245, 245, 246);
+}
+
+.bonuses ul li:before {
+    content: url("Shape 4.png");
+    margin-right: 16px;
+    margin-left: 30px;
+    
+    /*background-image: url(-.jpg);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content:"";*/
+}
+#enroll {
+    font-size: 14px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.143;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(238, 129, 41);
+    border: 1px solid rgb(238, 129, 41);
+    box-shadow: 0 3px 0 0 rgba(179, 86, 11, 1);
+    width: 253px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+#enroll:hover {
+    top:3px;
+    left:3px;
+    box-shadow: none;
+    cursor: pointer;
+}
+#enroll:focus {
+    outline: none;
+}
+#enroll:active {
+
+    top:2px;
+    left:2px;
+
+}
